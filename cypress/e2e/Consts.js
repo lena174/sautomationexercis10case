@@ -27,4 +27,4 @@ export const PersonalDetailsConstants = {
     MiddleName: "TestTest"
 };
 
-export const SuccessToast = ".oxd-toast"; // Success toast selector added
+export const SuccessToast = ".oxd-toast";

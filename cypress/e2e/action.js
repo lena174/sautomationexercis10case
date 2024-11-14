@@ -10,7 +10,6 @@ export class OrangeLoginPage {
         cy.get(SignInLocators.Password).type(SignInConstants.Password);
         cy.get(SignInLocators.LogInButton).click();
     }
-
     CloseAlert() {
         cy.on('window:alert', () => true);
     }

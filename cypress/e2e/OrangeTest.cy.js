@@ -15,7 +15,7 @@ describe('Log in and edit data', () => {
         editData.EditFirstName();
         editData.EditMiddleName();
         editData.Save();
-        editData.verifySuccessToast(); // Verify success toast
+        editData.verifySuccessToast();
         editData.AssertNewData();
     });
 });
