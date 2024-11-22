@@ -1,3 +1,7 @@
 node_modules
 .idea/
 README.md
+cypress\e2e\OrangeTest.cy.js
+cypress\e2e\action.js
+cypress\e2e\Consts.js
+cypress\e2e\Orange2Home-Work
