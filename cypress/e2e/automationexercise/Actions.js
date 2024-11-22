@@ -7,6 +7,8 @@ export class SignUp {
   visit() {
       cy.visit(GlobalData.URL)
 }
+
+
 OpenSignInPage(){
       cy.get(GlobalLocators.NavigationBar).contains(GlobalData.SignInButton).click();
     cy.get(GlobalLocators.SingUpblock).contains(GlobalData.SignUpText).should("be.visible")
